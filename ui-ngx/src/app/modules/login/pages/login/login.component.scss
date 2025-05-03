@@ -19,10 +19,16 @@
 :host {
   display: flex;
   flex: 1 1 0;
+  background-image: url('/assets/login_background.jpg'); // Ensure the correct path to the image
+  background-size: cover; // Ensure the image covers the entire background
+  background-position: center; // Center the image
+  background-repeat: no-repeat; // Prevent the image from repeating
+
   .tb-login-content {
     margin-top: 36px;
     margin-bottom: 76px;
-    background-color: #eee;
+    background-color: rgba(182, 186, 192, 0.7); // Add transparency to the background color
+    border-radius: 8px; // Optional: Add rounded corners
     .tb-login-form {
       @media #{$mat-gt-xs} {
         width: 550px !important;
