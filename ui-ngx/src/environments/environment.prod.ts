@@ -15,7 +15,7 @@
 ///
 
 export const environment = {
-  appTitle: 'MuTech-IoT',
+  appTitle: 'AutoSnow Dashboard',
   production: true,
 // @ts-ignore
   tbVersion: TB_VERSION,
